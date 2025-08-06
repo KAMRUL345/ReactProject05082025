@@ -9,6 +9,7 @@ import Navbar from './components/NavBar'
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 
 
@@ -32,6 +33,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+          {/* Add more routes as needed */}
         </Routes>
       </div>
     </Router>
