@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Home.css'; // স্টাইলিং এর জন্য CSS ফাইল
-import { FaRocket, FaHandshake, FaBullseye } from 'react-icons/fa'; // React Icons ব্যবহার
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Home.css"; // স্টাইলিং এর জন্য CSS ফাইল
+import { FaRocket, FaHandshake, FaBullseye } from "react-icons/fa"; // React Icons ব্যবহার
 
 const Home = () => {
   return (
@@ -11,9 +11,10 @@ const Home = () => {
         <div className="hero-content">
           <h1>আপনার ব্যবসাকে নতুন উচ্চতায় নিয়ে যান</h1>
           <p>
-            আমরা উদ্ভাবনী ডিজিটাল সমাধান প্রদানের মাধ্যমে আপনার ব্যবসাকে সফল করতে সাহায্য করি।
+            আমরা উদ্ভাবনী ডিজিটাল সমাধান প্রদানের মাধ্যমে আপনার ব্যবসাকে সফল
+            করতে সাহায্য করি।
           </p>
-          <P>KAMRUL</P>
+
           <Link to="/contact" className="cta-button">
             যোগাযোগ করুন
           </Link>
@@ -27,12 +28,18 @@ const Home = () => {
           <div className="feature-card">
             <FaRocket className="feature-icon" />
             <h3>দ্রুত ডেলিভারি</h3>
-            <p>আপনার প্রজেক্ট আমরা সময়মতো সম্পন্ন করি, যেন আপনি দ্রুত ফল পেতে পারেন।</p>
+            <p>
+              আপনার প্রজেক্ট আমরা সময়মতো সম্পন্ন করি, যেন আপনি দ্রুত ফল পেতে
+              পারেন।
+            </p>
           </div>
           <div className="feature-card">
             <FaHandshake className="feature-icon" />
             <h3>বিশ্বাসযোগ্য সমাধান</h3>
-            <p>আমরা দীর্ঘমেয়াদী সম্পর্কের উপর বিশ্বাস করি এবং মানসম্মত সেবা নিশ্চিত করি।</p>
+            <p>
+              আমরা দীর্ঘমেয়াদী সম্পর্কের উপর বিশ্বাস করি এবং মানসম্মত সেবা
+              নিশ্চিত করি।
+            </p>
           </div>
           <div className="feature-card">
             <FaBullseye className="feature-icon" />
@@ -47,9 +54,12 @@ const Home = () => {
         <h2 className="section-title">আমাদের গ্রাহকদের কথা</h2>
         <div className="testimonial-card">
           <blockquote>
-            "তাদের সেবা অসাধারণ! আমাদের ব্যবসার জন্য তারা একটি সম্পূর্ণ গেম-চেঞ্জার।"
+            "তাদের সেবা অসাধারণ! আমাদের ব্যবসার জন্য তারা একটি সম্পূর্ণ
+            গেম-চেঞ্জার।"
           </blockquote>
-          <p className="testimonial-author">- রহিম আহমেদ, সিইও, ABC Solutions</p>
+          <p className="testimonial-author">
+            - রহিম আহমেদ, সিইও, ABC Solutions
+          </p>
         </div>
       </section>
 
@@ -66,7 +76,7 @@ const Home = () => {
 
 export default Home;
 // এই কম্পোনেন্টটি হোম পেজের জন্য ব্যবহৃত হবে।
-// এখানে আপনি হোম পেজের বিভিন্ন সেকশন যেমন হিরো সেকশন, বৈশিষ্ট্যসমূহ, এবং গ্রাহক প্রশংসাপত্র ইত্যাদি তৈরি করতে পারেন।     
+// এখানে আপনি হোম পেজের বিভিন্ন সেকশন যেমন হিরো সেকশন, বৈশিষ্ট্যসমূহ, এবং গ্রাহক প্রশংসাপত্র ইত্যাদি তৈরি করতে পারেন।
 // এই কম্পোনেন্টটি আপনার অ্যাপের মূল অংশে অন্তর্ভুক্ত করা হবে, যেমন App.jsx ফাইলে <Route path="/" element={<Home />} /> এর মাধ্যমে।
 // আপনি এই কম্পোনেন্টে আরও বৈশিষ্ট্য যোগ করতে পারেন যেমন ইমেজ, ভিডিও, বা অন্যান্য ইন্টারেক্টিভ উপাদান।
 // এই কম্পোনেন্টের স্টাইলিং এর জন্য Home.css ফাইল ব্যবহার করা হয়েছে।
